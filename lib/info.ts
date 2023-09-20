@@ -3,5 +3,6 @@ export const socialLinks = {
     youtube: 'https://www.youtube.com/@godmama3814',
     medium: 'https://medium.com/@saniasandy2003',
     linkedIn: 'https://www.linkedin.com/in/sayeedasania-fathima-b62397279/',
-    email:'mailto:saniasandy2003@gmail.com'
+    email:'mailto:saniasandy2003@gmail.com',
+    caseStudy: 'https://saniafathima.site/projects'
 }

@@ -106,7 +106,18 @@ export default function Home () {
         </p>
       </div>
       <ul className="flex flex-col md:flex-row mt-8 space-x-0 md:space-x-4 space-y-2 md:space-y-0 font-sm text-neutral-600 dark:text-neutral-300">
+      <li className="">
+          <a
+            href={socialLinks.caseStudy}
+            rel="noopener noreferrer"
+            target="_blank"
+            className="flex items-center hover:text-neutral-800 dark:hover:text-neutral-100 transition-all"
+          >
+            <ArrowIcon color="text-blue-600" />
+            <p className="h-7 ml-2 text-blue-600">Explore case studies</p>
+          </a>
 
+        </li>
         <li className="">
           <a
             href={socialLinks.email}

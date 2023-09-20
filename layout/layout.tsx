@@ -34,8 +34,8 @@ const Layout = ({
               <MyLogo />
             </span>
             <nav className="flex flex-row md:flex-col items-start relative px-4 md:px-0 pb-0 fade md:overflow-auto scroll-pr-6 md:relative text-neutral-800 dark:text-neutral-200">
-              <ul className="text-bold mt-2 flex flex-row md:flex-col space-x-0 pr-10 mb-2 md:mt-0">
-                <li className="py-[5px] pr-[16px]">
+              <ul className="text-bold mt-2 flex flex-row md:flex-col md:space-x-0 pr-10 mb-2 md:mt-0">
+                <li className="py-[5px] mr-[16px]">
                   <Link href="/">
                     <span
                       className={` dark:hover:text-neutral-200 py-[10px] px-[10px] ${
@@ -48,7 +48,7 @@ const Layout = ({
                     </span>
                   </Link>
                 </li>
-                <li className="py-[5px] pr-[16px]">
+                <li className="py-[5px] mr-4">
                   <Link href="/projects">
                     <span
                       className={` dark:hover:text-neutral-200 py-[10px] px-[10px] ${
