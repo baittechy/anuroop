@@ -18,7 +18,7 @@ export default function Header({title, description}: {title: string, description
 
 Header.propTypes = {
   title: PropTypes.string,
-  description: PropTypes.array,
+  description: PropTypes.string,
 };
 
 Header.defaultProps = {
