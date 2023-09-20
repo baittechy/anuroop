@@ -6,11 +6,11 @@ import { usePathname } from "next/navigation";
 import { ArrowIcon } from "@/src/components/icons";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import saniaLogo from "@/src/components/sanialogo.jpeg";
+import saniaLogo from "@/src/components/sanialogo3.png";
 
 function MyLogo() {
   return (
-    <Image className="rounded-full items-center" src={saniaLogo} alt="Sania" width={60} height={60} />
+    <Image className="rounded-full items-center bg-white" src={saniaLogo} alt="Sania" width={60} height={65} />
   );
 }
 
@@ -35,10 +35,10 @@ const Layout = ({
             </span>
             <nav className="flex flex-row md:flex-col items-start relative px-4 md:px-0 pb-0 fade md:overflow-auto scroll-pr-6 md:relative text-neutral-800 dark:text-neutral-200">
               <ul className="text-bold mt-2 flex flex-row md:flex-col space-x-0 pr-10 mb-2 md:mt-0">
-                <li className="py-[5px]">
+                <li className="py-[5px] pr-[16px]">
                   <Link href="/">
                     <span
-                      className={` dark:hover:text-neutral-200 py-[5px] px-[10px] ${
+                      className={` dark:hover:text-neutral-200 py-[10px] px-[10px] ${
                         pathName == "/"
                           ? "font-bold text-white bg-neutral-800 rounded-md transition-all duration-1000"
                           : ""
@@ -48,10 +48,10 @@ const Layout = ({
                     </span>
                   </Link>
                 </li>
-                <li className="py-[5px]">
+                <li className="py-[5px] pr-[16px]">
                   <Link href="/projects">
                     <span
-                      className={` dark:hover:text-neutral-200 py-[5px] px-[10px] ${
+                      className={` dark:hover:text-neutral-200 py-[10px] px-[10px] ${
                         pathName == "/projects"
                           ? "font-bold text-white bg-neutral-800 rounded-md transition-color duration-500"
                           : ""
@@ -64,7 +64,7 @@ const Layout = ({
                 <li className="py-[5px]">
                   <Link href="/about">
                     <span
-                      className={` dark:hover:text-neutral-200 py-[5px] px-[10px] ${
+                      className={` dark:hover:text-neutral-200 py-[10px] px-[10px] ${
                         pathName == "/about"
                           ? "font-bold text-white bg-neutral-800 rounded-md transition-color duration-500"
                           : ""
