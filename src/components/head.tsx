@@ -22,6 +22,6 @@ Header.propTypes = {
 };
 
 Header.defaultProps = {
-  title: "Murali",
-  description: "A portfolio website of murali elumalai",
+  title: "Sania",
+  description: "A portfolio website of sania fathima",
 };
