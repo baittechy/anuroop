@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import Layout from "../layout/layout";
-import profilepic from "@/src/components/saniaprofile.jpeg";
+import profilepic from "@/src/components/saniaprofile2.jpeg";
 import {
   ArrowIcon,
   LinkedInIcon,

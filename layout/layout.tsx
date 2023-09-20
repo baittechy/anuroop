@@ -5,53 +5,12 @@ import { ReactNode } from "react";
 import { usePathname } from "next/navigation";
 import { ArrowIcon } from "@/src/components/icons";
 import { motion } from "framer-motion";
+import Image from "next/image";
+import saniaLogo from "@/src/components/sanialogo.jpeg";
 
 function MyLogo() {
   return (
-    <motion.svg
-      width="30"
-      height="30"
-      viewBox="0 0 79 91"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <motion.path
-        className="fill-black dark:fill-white"
-        d="M0.165894 0.0171509L18.1659 27.5174L17 72.5L0.165894 90.0172V0.0171509Z"
-        fill="none"
-        initial={{ x: -50, opacity: 0.5 }}
-        animate={{ x: 0, opacity: 1 }}
-        transition={{
-          duration: 0.1,
-          type: "spring",
-          stiffness: 50,
-        }}
-      />
-      <motion.path
-        className="fill-black dark:fill-white"
-        initial={{ x: 50, opacity: 0.5 }}
-        animate={{ x: 0, opacity: 1 }}
-        transition={{
-          duration: 0.5,
-          type: "spring",
-          stiffness: 50,
-        }}
-        d="M78.5 0.0171509L60.5 27.5174V74.5L78.5 90.0172V0.0171509Z"
-        fill="none"
-      />
-      <motion.path
-        className="fill-black dark:fill-white"
-        initial={{ y: -50, opacity: 0.5 }}
-        animate={{ y: 0, opacity: 1 }}
-        transition={{
-          duration: 0.5,
-          type: "spring",
-          stiffness: 50,
-        }}
-        d="M39.1637 27.6435L18.2372 0.193498H39.1637L60.0901 0.193498L39.1637 27.6435Z"
-        fill="none"
-      />
-    </motion.svg>
+    <Image className="rounded-full items-center" src={saniaLogo} alt="Sania" width={60} height={60} />
   );
 }
 
