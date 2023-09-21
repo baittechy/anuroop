@@ -132,9 +132,8 @@ export default function Home () {
         </li>
         <li className="">
           <a
-            href={socialLinks.email}
-            rel="noopener noreferrer"
-            target="_blank"
+            href={socialLinks.resume}
+            download="saniafathima_resume"
             className="flex items-center hover:text-neutral-800 dark:hover:text-neutral-100 transition-all"
           >
             <ArrowIcon color="text-blue-600" />
