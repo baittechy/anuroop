@@ -133,6 +133,8 @@ export default function Home () {
         <li className="">
           <a
             href={socialLinks.resume}
+            rel="noopener noreferrer"
+            target="_blank"
             download="saniafathima_resume"
             className="flex items-center hover:text-neutral-800 dark:hover:text-neutral-100 transition-all"
           >
