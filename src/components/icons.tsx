@@ -1,4 +1,4 @@
-export function InstagramIcon () {
+export function InstagramIcon() {
   // create a variable
 
   return (
@@ -20,10 +20,16 @@ export function InstagramIcon () {
 }
 
 export function DribbleIcon() {
-  return (<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-dribbble"><circle cx="12" cy="12" r="10"></circle><path d="M8.56 2.75c4.37 6.03 6.02 9.42 8.03 17.72m2.54-15.38c-3.72 4.35-8.94 5.66-16.88 5.85m19.5 1.9c-3.5-.93-6.63-.82-8.94 0-2.58.92-5.01 2.86-7.44 6.32"></path></svg>)
+  return (<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" 
+  viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" 
+  stroke-linejoin="round" className="feather feather-dribbble"><circle cx="12" cy="12" r="10">
+    </circle>
+    <path d="M8.56 2.75c4.37 6.03 6.02 9.42 8.03 17.72m2.54-15.38c-3.72 4.35-8.94 5.66-16.88 5.85m19.5 1.9c-3.5-.93-6.63-.82-8.94 0-2.58.92-5.01 2.86-7.44 6.32">
+      </path>
+      </svg>)
 }
 
-export function GithubIcon () {
+export function GithubIcon() {
   return (
     <svg
       width="20"
@@ -47,7 +53,7 @@ export function GithubIcon () {
   );
 }
 
-export function TwitterIcon () {
+export function TwitterIcon() {
   return (
     <svg
       width="20"
@@ -71,7 +77,7 @@ export function TwitterIcon () {
   );
 }
 
-export function ArrowIcon ({ color }: { color?: string }) {
+export function ArrowIcon({ color }: { color?: string }) {
   return (
     <svg
       className={`mr-2 ${color ? color : ''}`}
@@ -89,7 +95,7 @@ export function ArrowIcon ({ color }: { color?: string }) {
   );
 }
 
-export function YoutubeIcon () {
+export function YoutubeIcon() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -104,7 +110,7 @@ export function YoutubeIcon () {
   );
 }
 
-export function LinkedInIcon () {
+export function LinkedInIcon() {
   return (
     <svg
       fill="currentColor"
@@ -119,7 +125,7 @@ export function LinkedInIcon () {
   );
 }
 
-export function NextLogo () {
+export function NextLogo() {
   return (
     <svg
       width="20"
@@ -140,7 +146,7 @@ export function NextLogo () {
   );
 }
 
-export function Nodejs () {
+export function Nodejs() {
   return (
     <svg
       fill="currentColor"
@@ -158,8 +164,8 @@ export function Nodejs () {
   );
 }
 
-export function MediumLogo () {
+export function MediumLogo() {
   return (<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-medium" viewBox="0 0 16 16">
-  <path d="M9.025 8c0 2.485-2.02 4.5-4.513 4.5A4.506 4.506 0 0 1 0 8c0-2.486 2.02-4.5 4.512-4.5A4.506 4.506 0 0 1 9.025 8zm4.95 0c0 2.34-1.01 4.236-2.256 4.236-1.246 0-2.256-1.897-2.256-4.236 0-2.34 1.01-4.236 2.256-4.236 1.246 0 2.256 1.897 2.256 4.236zM16 8c0 2.096-.355 3.795-.794 3.795-.438 0-.793-1.7-.793-3.795 0-2.096.355-3.795.794-3.795.438 0 .793 1.699.793 3.795z"/>
-</svg>)
+    <path d="M9.025 8c0 2.485-2.02 4.5-4.513 4.5A4.506 4.506 0 0 1 0 8c0-2.486 2.02-4.5 4.512-4.5A4.506 4.506 0 0 1 9.025 8zm4.95 0c0 2.34-1.01 4.236-2.256 4.236-1.246 0-2.256-1.897-2.256-4.236 0-2.34 1.01-4.236 2.256-4.236 1.246 0 2.256 1.897 2.256 4.236zM16 8c0 2.096-.355 3.795-.794 3.795-.438 0-.793-1.7-.793-3.795 0-2.096.355-3.795.794-3.795.438 0 .793 1.699.793 3.795z" />
+  </svg>)
 }

@@ -4,7 +4,7 @@ export const socialLinks = {
     medium: 'https://medium.com/@anuroop_Adala',
     linkedIn: 'https://www.linkedin.com/in/anuroop-reddy-440146139/',
     email:'mailto:anuroopreddyadala@gmail.com',
-    caseStudy: 'https://saniafathima.site/projects',
+    caseStudy: 'https://anuroopreddy.com/projects',
     resume: 'https://anuroopreddy.com/Anuroop2024.pdf',
     dribble: 'https://dribbble.com/Adala_Anuroop#'
 }
