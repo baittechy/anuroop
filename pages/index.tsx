@@ -2,14 +2,15 @@ import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import Layout from "../layout/layout";
-import profilepic from "@/src/components/saniaprofile2.jpeg";
+import profilepic from "@/src/components/profilepic.jpg";
 import {
   ArrowIcon,
+  DribbleIcon,
   LinkedInIcon,
   MediumLogo,
   YoutubeIcon
 } from "@/src/components/icons";
-import { socialLinks } from "@/lib/info";
+import { portfolioData, socialLinks } from "@/lib/info";
 import AWS from "@/src/components/aws.svg";
 import GCP from "@/src/components/gcp.svg";
 import Postgres from "@/src/components/postgres.svg";
@@ -17,20 +18,21 @@ import Mongo from "@/src/components/mongodb.svg";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function Home () {
+export default function Home() {
+  const { name } = portfolioData;
   return (
     <Layout
       data={{
-        title: "Sania Fathima",
-        description: "A portfolio of Sania Fathima",
+        title: name,
+        description: `A portfolio of ${name}`,
       }}
     >
       <h1 className="font-bold text-3xl font-serif text-neutral-800 dark:text-neutral-200">
-        Sania Fathima
+        {name}
       </h1>
 
       <p className="my-5 max-w-[480px] text-neutral-800 dark:text-neutral-200">
-        {`Hey, I'm Sania 👋`}<br /> <b>{`I am a UX designer`}</b>, with focus on seamless designs. Let's create beautiful experiences together.
+        {`Hey, I'm ${name} 👋`}<br /> <b>{`I am a UX designer`}</b>, with focus on seamless designs. Let's create beautiful experiences together.
       </p>
       <ul className="mb-2 flex flex-wrap  max-w-[480px]" aria-label="Technologies used">
         <li className="mr-1 mt-2">
@@ -83,30 +85,28 @@ export default function Home () {
           </a>
           <a
             className="flex items-center gap-2"
-            href={socialLinks.youtube}
+            href={socialLinks.dribble}
             target="_blank"
             rel="noopener noreferrer"
           >
-            <YoutubeIcon />
-            Youtube
+            <DribbleIcon />
+            Dribble
           </a>
         </div>
         {/* bio */}
       </div>
       <p className="my-5 max-w-[460px] text-neutral-800 dark:text-neutral-200">
-        While my portfolio is short, it's like a petite powerhouse of UX magic - the rest
-        of it is in the making, just like a masterpiece under
-        construction
+      <b>With over half a decade of industry experience</b>, I specialize in crafting intuitive and engaging digital products, leveraging expertise in user-centric design and innovation.
       </p>
 
 
       <div className="max-w-[460px] text-neutral-900 dark:text-neutral-100 prose prose-neutral dark:prose-invert ">
         <p>
-          <b>Graduated from</b> L'Institut Supérieur des Arts Appliqués.
+        I have also worked with companies like Kunato Inc., Line Technologies, Moeving, Auzmor & Lollypop across challenging domains..
         </p>
       </div>
       <ul className="flex flex-col md:flex-row mt-8 space-x-0 md:space-x-4 space-y-2 md:space-y-0 font-sm text-neutral-600 dark:text-neutral-300">
-      <li className="">
+        <li className="">
           <a
             href={socialLinks.caseStudy}
             rel="noopener noreferrer"
